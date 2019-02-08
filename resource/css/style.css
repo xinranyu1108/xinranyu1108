@@ -103,13 +103,13 @@ header .row{
 
 
 .myPhoto {
-    width: 100%;
+    width: 90%;
     height: auto;
     border-radius: 50%;   
 }
 .long-text {
     line-height: 150%;
-    margin-bottom: 30px   
+    margin-bottom: 60px   
 }
 
 .aboutme-box:first-child{
