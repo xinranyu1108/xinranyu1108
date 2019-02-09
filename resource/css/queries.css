@@ -46,6 +46,10 @@
 }
 
 @media only screen and (max-width:767px){
+    nav {
+    width: 100%;
+    text-align: center;
+    }
     .myName-text{
         top:50%;
         left: 50%;
@@ -68,6 +72,13 @@
     li {margin-top: 20px;}
 }
 @media only screen and (max-width: 480px) {
+      .aboutme-box:first-child {
+        padding: 0;
+    }
+    .aboutme-box:last-child{
+        padding: 0;
+        text-align: center;
+    }
     .row {
         width: 100%;
         margin: 0;
