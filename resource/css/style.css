@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
-h3{
+h3 {
     margin-bottom: 40px;
 }
 
@@ -16,24 +16,26 @@ html {
     font-family: 'Lato', sans-serif;
     text-rendering: optimizeLegibility;
     background-color: #ededed;
-    
+
 }
+
 .row {
     max-width: 1240px;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 header {
-    background-color: #E9B5B5;   
+    background-color: #E9B5B5;
 }
 
-.myName-text,h2{
+.myName-text,
+h2 {
     text-transform: uppercase;
-    letter-spacing: 1px;  
+    letter-spacing: 1px;
 }
 
 h1 {
-    font-size: 240%; 
+    font-size: 240%;
     word-spacing: 4px;
 }
 
@@ -44,10 +46,11 @@ h2 {
     margin-bottom: 40px;
 }
 
-h3{
+h3 {
     text-align: center;
 }
-h2:after{
+
+h2:after {
     display: block;
     width: 100px;
     height: 2px;
@@ -68,94 +71,98 @@ ul {
 section {
     padding: 50px 0;
 }
-/*-------------------------------------*/ 
-/*-----------Header section------------*/ 
-/*-------------------------------------*/ 
+
+/*-------------------------------------*/
+/*-----------Header section------------*/
+/*-------------------------------------*/
 nav {
     right: 0;
     position: absolute;
-     bottom: 10px;
+    bottom: 10px;
     right: 0;
-    
-   
+
+
 }
+
 nav li {
     display: inline-block;
     margin-left: 30px;
 }
 
 a {
-    color:#555;
+    color: #555;
 }
+
 .myName-text {
     position: absolute;
     bottom: 5px;
 }
 
-header .row{
+header .row {
     height: 200px;
     position: relative;
 }
 
-/*-------------------------------------*/ 
-/*-----------aboutMe section------------*/ 
-/*-------------------------------------*/ 
+/*-------------------------------------*/
+/*-----------aboutMe section------------*/
+/*-------------------------------------*/
 
 
 .myPhoto {
     width: 90%;
     height: auto;
-    border-radius: 50%;   
+    border-radius: 50%;
 }
+
 .long-text {
     line-height: 150%;
-    margin-bottom: 50px   
+    margin-bottom: 50px
 }
 
-.aboutme-box:first-child{
-  text-align: center;
-  padding-right: 3%
-
+.aboutme-box:first-child {
+    text-align: center;
+    padding-right: 3%
 }
 
-.aboutme-box:last-child{
-  margin-top: 20px;
-  text-align: left;
-  padding-left: 3%;
+.aboutme-box:last-child {
+    margin-top: 20px;
+    text-align: left;
+    padding-left: 3%;
 }
 
 .mySkills-text {
     margin-bottom: 20px;
 }
-.mySkills-text b{
+
+.mySkills-text b {
     margin-right: 10px;
     font-size: 130%;
 }
 
 
-/*-------------------------------------*/ 
-/*-----------My education---------------*/ 
-/*-------------------------------------*/ 
+/*-------------------------------------*/
+/*-----------My education---------------*/
+/*-------------------------------------*/
 .btn {
     display: inline-block;
     padding: 10px;
     margin: 30px 0 60px 0;
-    
+
 }
 
 .btn:link,
-.btn:visited{
-   -webkit-transition: background-color 0.2s;
-   transition: background-color 0.2s;
+.btn:visited {
+    -webkit-transition: background-color 0.2s;
+    transition: background-color 0.2s;
     background-color: #E9B5B5;
-    color:#fff;
-    
+    color: #fff;
+
 }
 
 .btn:hover,
-.btn:active{
+.btn:active {
     background-color: #d65a5a;
-    
+
 }
 
 
@@ -163,7 +170,8 @@ header .row{
     width: 70%;
     margin: auto;
 }
-.education-box:first-of-type{
+
+.education-box:first-of-type {
     text-align: center;
 }
 
@@ -178,8 +186,9 @@ header .row{
 }
 
 .myEducation figcaption {
-    margin-left: 10%;  
+    margin-left: 10%;
 }
+
 .myEducation col {
     margin-left: 15px;
 }
@@ -189,12 +198,12 @@ header .row{
     width: 82%;
     margin-top: 30px;
     margin-left: 9%;
-   
+
 }
 
-/*-------------------------------------*/ 
-/*-----------My project---------------*/ 
-/*-------------------------------------*/ 
+/*-------------------------------------*/
+/*-----------My project---------------*/
+/*-------------------------------------*/
 .myProject {
     background-color: #ededed;
 }
@@ -207,42 +216,44 @@ header .row{
 }
 
 .project-box {
-   text-align: center;
+    text-align: center;
     border-radius: 10px;
     -webkit-box-shadow: 2px 2px #efe8e8;
     box-shadow: 2px 2px #efe8e8;
     width: 90%;
-    margin-left:5px;
+    margin-left: 5px;
 }
 
 
 
 .project-text {
     margin: 0;
-    font-size:130%;
+    font-size: 130%;
 }
 
-/*-------------------------------------*/ 
-/*-----------Contact me---------------*/ 
-/*-------------------------------------*/ 
+/*-------------------------------------*/
+/*-----------Contact me---------------*/
+/*-------------------------------------*/
 .contactMe-section h2 {
     color: #fff;
 }
+
 .contactMe-section {
-    background-image:  -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.70)), to(rgba(0, 0, 0, 0.70))), url(img/contactMe.jpg);
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(img/contactMe.jpg);
-    background-image:  -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.7)),to(rgba(0, 0, 0, 0.7))) url(img/contactMe.jpg);
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)) url(img/contactMe.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.70)), to(rgba(0, 0, 0, 0.70))), url(img/contactMe.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(img/contactMe.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))) url(img/contactMe.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) url(img/contactMe.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    
+
 }
-.contact-box{
+
+.contact-box {
     width: 80%;
     margin-left: 10%;
     padding: 20px;
-   
+
 }
 
 .contactMe-list {
@@ -257,8 +268,9 @@ header .row{
 
 .contactMeList-box {
     margin-bottom: 50px;
-} 
-.myEmail{
+}
+
+.myEmail {
     text-align: center;
     margin-bottom: 50px;
     color: #fff;
@@ -266,104 +278,99 @@ header .row{
 
 .contactMe-list li {
     display: inline-block;
-   
-}  
+
+}
 
 .contactMe-list li:first-child {
-    margin-left: 0;   
+    margin-left: 0;
 }
 
 
-span{
+span {
     font-weight: 400;
     font-size: 200%;
     margin-left: 20px;
 }
 
-.contactMe-list li a{
+.contactMe-list li a {
     padding: 20px;
-    background-color:  #fff;
+    background-color: #fff;
     margin-left: 30px;
     border: 2px solid #fff;
     border-radius: 5px;
     -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
     display: block;
-  
+
 }
 
 .freeCodeCamp:link,
-.freeCodeCamp:visited{
-    color:#006400;
+.freeCodeCamp:visited {
+    color: #006400;
 }
- 
+
 .freeCodeCamp:hover,
-.freeCodeCamp:active
-{
+.freeCodeCamp:active {
     background-color: #006400;
     color: #fff;
     border: 2px solid #006400;
 }
 
 .github:link,
-.github:visited{
-    color:#000;
-   
+.github:visited {
+    color: #000;
+
 }
- 
+
 .github:hover,
-.github:active
-{
+.github:active {
     background-color: #000;
     color: #fff;
     border: 2px solid #000;
 }
 
 .linkedin:link,
-.linkedin:visited{
-    color:#0077B5;
-   
+.linkedin:visited {
+    color: #0077B5;
+
 }
- 
+
 .linkedin:hover,
-.linkedin:active
-{
+.linkedin:active {
     background-color: #0077B5;
     color: #fff;
     border: 2px solid #0077B5;
 }
 
 .facebook:link,
-.facebook:visited{
-    color:#3C5A99;
-   
+.facebook:visited {
+    color: #3C5A99;
+
 }
- 
+
 .facebook:hover,
-.facebook:active
-{
+.facebook:active {
     background-color: #3C5A99;
     color: #fff;
     border: 2px solid #3C5A99;
 }
 
 .twitter:link,
-.twitter:visited{
-    color:#38A1F3;
-   
+.twitter:visited {
+    color: #38A1F3;
+
 }
- 
+
 .twitter:hover,
-.twitter:active
-{
+.twitter:active {
     background-color: #38A1F3;
     color: #fff;
     border: 2px solid #38A1F3;
 }
 
-/*-------------------------------------*/ 
-/*----------------footer--------------*/ 
-/*-------------------------------------*/ 
+/*-------------------------------------*/
+/*----------------footer--------------*/
+/*-------------------------------------*/
 footer {
     background-color: #333;
     padding: 40px;
@@ -373,6 +380,3 @@ footer p {
     color: #888;
     text-align: center;
 }
-
-
-
