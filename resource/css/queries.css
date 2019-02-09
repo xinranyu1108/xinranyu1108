@@ -1,28 +1,43 @@
+@media only screen and (max-width:1263px) {
+     .twitter-li {
+        margin-top: 20px;
+    }
+
 @media only screen and (max-width:1200px) {
 
     .row {
         margin: 0 2%;
+    }
+     .long-text {
+        margin-bottom: 40px;
     }
 
     .myEducation img {
         width: 400px;
     }
 
-    .twitter-li {
-        margin-top: 20px;
-    }
+   
 
     .DF-text-box {
         width: 95%;
         margin: 30px 5% auto auto;
     }
+    
+      .education-box {
+        width: 90%;
+    }
+
 }
 
 @media only screen and (max-width:1024px) {
     html {
         font-size: 18px;
     }
-
+    
+     .DF-text-box {
+        width: 95%;
+        margin-top: 30px;
+    }
     .contact-box {
         width: 90%;
         margin-left: 5%;
@@ -31,26 +46,49 @@
     .aboutme-box:last-child {
         margin-top: 0;
     }
+    .long-text {
+        margin-bottom: 30px;
+    }
 
     .myEducation img {
         width: 320px;
         margin-left: 0;
     }
 
-    .education-box {
-        width: 90%;
-    }
-
-    .DF-text-box {
-        width: 95%;
-        margin-top: 30px;
-    }
+  
+   
 }
 
 @media only screen and (max-width:767px) {
+    html {
+        font-size: 16px;
+    }
+   
+    .col {
+        width: 100%;
+        margin:0 0 4% 0;
+    }
     nav {
         width: 100%;
         text-align: center;
+    }
+     .myPhoto {
+        width: 50%;
+    }
+    .long-text {
+        margin-bottom: 15px;
+    }
+    .DF-text-box {
+        width: 98%;
+        margin-left: 1%;
+        margin-top: 0;
+    }
+    .myEducation figcaption {
+        text-align: center;
+    }
+    .project-box {
+        width: 98%;
+        margin-left: 1%;
     }
 
     .myName-text {
@@ -71,41 +109,77 @@
     }
 
     section {
-        padding: 20px 0;
+        padding: 30px 0;
     }
-
+    
+    h1{
+        font-size:180%;
+    }
     h2 {
+        font-size: 150%;
         margin-bottom: 20px;
     }
-
+    h3{
+        font-size: 120%;
+        margin-bottom: 20px;
+        
+    }
+    
     li {
         margin-top: 20px;
     }
+    .myFinalProject {
+       
+        text-align: center;
+    }
+    .myFinalProject img{
+        width: 98%;
+    }
+    .project-img {
+        width: 90%;
+        margin: auto;
+        display: block;
+    }
+    footer {
+        padding: 30px;
+    }
+    .myEducation figcaption {
+        margin: 0;
+    }
+    .contactMe-list li {
+        margin-bottom: 5px;
+        display: block;
+        font-size: 120%;
+    }
+     span {
+        display: block;
+        margin: 0;
+         font-size: 120%;
+    }
+    
+  
+
+
 }
 
 @media only screen and (max-width: 480px) {
-    .aboutme-box:first-child {
-        padding: 0;
+    
+    nav {
+        display: none;
     }
+    header .row {
+        height: 150px;
+    }
+
+
 
     .aboutme-box:last-child {
         padding: 0;
         text-align: center;
     }
-
     .long-text {
-        margin-top: 20px;
+        margin-top: 10px;
         margin-bottom: 10px;
-    }
-
-    .row {
-        width: 100%;
-        margin: 0;
-    }
-
-    nav li {
-        margin: 0;
-        margin-right: 10px;
     }
 
     .myName-text {
@@ -118,7 +192,7 @@
     }
 
     h2 {
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
 
     html {
@@ -133,54 +207,27 @@
         margin-bottom: 20px
     }
 
-    li {
-        margin-top: 0px;
-    }
-
     .DF-text-box {
         margin: 0;
         width: 100%;
     }
 
-    .DF-image-box {
-        text-align: center;
-    }
-
-    span {
-        display: block;
-        margin: 0;
-    }
-
+   
     .contact-box {
-        font-size: 70%;
+        font-size: 130%;
         width: 100%;
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    .contact-box li a {
+       margin: 0;
     }
 
     .myEmail {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
+
     }
 
-    .contact-box {
-        padding: 0;
-        margin: 0;
-    }
-
-    .contactMe-list li {
-        margin-bottom: 5px;
-        display: block;
-        font-size: 180%;
-    }
-
-    .contactMe-list li a {
-        margin-left: 0px;
-    }
-
-    .twitter-li {
-        margin: 0;
-    }
-
-    .project-box {
-        width: 100%;
-        margin-top: 10px;
-    }
 }

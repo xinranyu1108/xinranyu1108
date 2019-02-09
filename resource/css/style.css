@@ -109,16 +109,17 @@ header .row{
 }
 .long-text {
     line-height: 150%;
-    margin-bottom: 60px   
+    margin-bottom: 50px   
 }
 
 .aboutme-box:first-child{
   text-align: center;
   padding-right: 3%
+
 }
 
 .aboutme-box:last-child{
-  margin-top: 40px;
+  margin-top: 20px;
   text-align: left;
   padding-left: 3%;
 }
@@ -131,12 +132,14 @@ header .row{
     font-size: 130%;
 }
 
+
+/*-------------------------------------*/ 
+/*-----------My education---------------*/ 
+/*-------------------------------------*/ 
 .btn {
     display: inline-block;
     padding: 10px;
-    margin: 30px 0 90px 0;
-   
- 
+    margin: 30px 0 60px 0;
     
 }
 
@@ -155,12 +158,9 @@ header .row{
     
 }
 
-/*-------------------------------------*/ 
-/*-----------My education---------------*/ 
-/*-------------------------------------*/ 
 
 .education-box {
-    width: 65%;
+    width: 70%;
     margin: auto;
 }
 .education-box:first-of-type{
@@ -186,9 +186,9 @@ header .row{
 
 .DF-text-box {
     text-align: left;
-    width: 70%;
-    margin-top: 50px;
-    margin-left: 15%;
+    width: 82%;
+    margin-top: 30px;
+    margin-left: 9%;
    
 }
 
@@ -255,6 +255,9 @@ header .row{
     margin-right: 10px;
 }
 
+.contactMeList-box {
+    margin-bottom: 50px;
+} 
 .myEmail{
     text-align: center;
     margin-bottom: 50px;
@@ -269,7 +272,6 @@ header .row{
 .contactMe-list li:first-child {
     margin-left: 0;   
 }
-
 
 
 span{
@@ -364,7 +366,7 @@ span{
 /*-------------------------------------*/ 
 footer {
     background-color: #333;
-    padding: 50px;
+    padding: 40px;
 }
 
 footer p {
