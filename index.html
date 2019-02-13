@@ -1,35 +1,37 @@
 <html lang="en">
     <head>
-        <meta name = "viewport" content="width=device-width, intial-scale=1.0">
-      
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="vendor/css/grid.css">
-        <link rel="stylesheet" type="text/css" href="resource/css/style.css">
-        <link rel="stylesheet" type="text/css" href="resource/css/queries.css">
-        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
-        <title>Xinran's e-portfolio</title>
-    </head>
-    <body>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="vendor/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="resource/css/style.css">
+    <link rel="stylesheet" type="text/css" href="resource/css/queries.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+    <title>Xinran's e-portfolio</title>
+</head>
+
+<body>
     <header>
-          <div class="head-section">
-              <div class="row">
+        <div class="head-section">
+            <div class="row">
                 <div class="myName-text">
                     <h1>Xinran Yu</h1>
                     <p>Graudate Web Developer</p>
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Me</a></li>
-                        <li><a href="#">My Projects</a></li>
-                        <li><a href="#">Contacts</a></li>    
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#aboutMe-section">About Me</a></li>
+                        <li><a href="#myEduction">My education</a></li>
+                        <li><a href="#myProject">My projects</a></li>
+                        <li><a href="#contactMe-section">Contacts</a></li>
                     </ul>
                 </nav>
-            </div> 
-        </div> 
+            </div>
+        </div>
     </header>
-    
-    <section class="aboutMe-section">
+
+    <section class="aboutMe-section" id="aboutMe-section">
         <div class="row">
             <h2>About Me</h2>
         </div>
@@ -47,12 +49,12 @@
                     <b>I'm studying:</b>
                     Javascript
                 </p>
-                
+
             </div>
-            
-        </div>   
+
+        </div>
     </section>
-    <section class="myEducation">
+    <section class="myEducation" id="myEduction">
         <div col="row">
             <h2>My education</h2>
         </div>
@@ -67,24 +69,24 @@
                 </div>
             </div>
         </div>
-    
-            <div class="education-box">
-                <div class="row">
-                    <h3>My final year project</h3>
-                </div>
-                <div class="row">
-                    <div class="col span-1-of-2">
-                        <div class="DF-text-box">
-                            <p>I joined New Zealand Design Factory for my final year project.<br>
-                                Design Factory is a co-operation space where students and industry partner work togather to solve complex problems </p>
-                            <p>From there, I learned the value of <b>collaboration</b>, <b>respect</b>and <b>compromise</b></p>
-                        </div>
+
+        <div class="education-box">
+            <div class="row">
+                <h3>My final year project</h3>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <div class="DF-text-box">
+                        <p>I joined New Zealand Design Factory for my final year project.<br>
+                            Design Factory is a co-operation space where students and industry partner work togather to solve complex problems </p>
+                        <p>From there, I learned the value of <b>collaboration</b>, <b>respect</b>and <b>compromise</b></p>
                     </div>
-                    <div class="col span-1-of-2">
-                        <div class="DF-image-box">
+                </div>
+                <div class="col span-1-of-2">
+                    <div class="DF-image-box">
                         <figure class="myFinalProject">
-                            <img src="resource/img/designfactory.jpg" alt="Designfactory"> 
-                            <figcaption>Design Factory Gala Showcase</figcaption> 
+                            <img src="resource/img/designfactory.jpg" alt="Designfactory">
+                            <figcaption>Design Factory Gala Showcase</figcaption>
                         </figure>
                     </div>
                 </div>
@@ -92,23 +94,23 @@
         </div>
 
     </section>
-    <section class="myProject">
+    <section class="myProject" id="myProject">
         <div class="row">
             <h2>My projects</h2>
         </div>
         <div class="row">
             <div class="col span-1-of-3">
                 <div class="project-box">
-                    <a  href="https://github.com/xinranyu1108/omnifood">
+                    <a href="https://github.com/xinranyu1108/omnifood">
                         <img class="project-img" src="resource/img/ominifood.png">
                         <span class="project-text">Ominifood</span>
                     </a>
                 </div>
             </div>
-    
+
             <div class="col span-1-of-3">
                 <div class="project-box">
-                    <a  href="https://github.com/xinranyu1108/visual-effect-assignment1">
+                    <a href="https://github.com/xinranyu1108/visual-effect-assignment1">
                         <img class="project-img" src="resource/img/visualeffect.png">
                         <span class="project-text">New Zealand traffic rule</span>
                     </a>
@@ -116,7 +118,7 @@
             </div>
             <div class="col span-1-of-3">
                 <div class="project-box">
-                    <a  href="https://github.com/xinranyu1108/zumba-club">
+                    <a href="https://github.com/xinranyu1108/zumba-club">
                         <img class="project-img" src="resource/img/zumbaClub.png">
                         <span class="project-text">Zumba Club</span>
                     </a>
@@ -124,22 +126,22 @@
             </div>
         </div>
     </section>
-    <section class="contactMe-section">
+    <section class="contactMe-section" id="contactMe-section">
         <div class="row">
             <h2>Contact me</h2>
         </div>
-         <div class="row">
-             <div class="contact-box">
-            <p class="myEmail">My Email:<span>Xinranyu1108@outlook.com</span></p>
+        <div class="row">
+            <div class="contact-box">
+                <p class="myEmail">My Email:<span>Xinranyu1108@outlook.com</span></p>
                 <div class="contactMeList-box">
-                   <ul class="contactMe-list">
-                       <li><a class="freeCodeCamp" href="https://www.freecodecamp.org/xinranyu1108"><i class="fab fa-free-code-camp"></i>FreeCodeCamp</a></li>
-                       <li><a class="github" href="https://github.com/xinranyu1108"><i class="fab fa-github"></i>GitHub</a></li>
-                       <li><a class="linkedin" href="https://www.linkedin.com/in/xinran-yu-19931108/"><i class="fab fa-linkedin-in"></i>LinkedIn</a></li>
-                       <li><a class="facebook" href="https://www.facebook.com/xinran.yu.71"><i class="fab fa-facebook-f"></i>Facebook</a></li>
-                       <li class="twitter-li"><a class="twitter" href="https://twitter.com/XinranYu2"><i class="fab fa-linkedin-in"></i>Twitter</a></li>
+                    <ul class="contactMe-list">
+                        <li><a class="freeCodeCamp" href="https://www.freecodecamp.org/xinranyu1108"><i class="fab fa-free-code-camp"></i>FreeCodeCamp</a></li>
+                        <li><a class="github" href="https://github.com/xinranyu1108"><i class="fab fa-github"></i>GitHub</a></li>
+                        <li><a class="linkedin" href="https://www.linkedin.com/in/xinran-yu-19931108/"><i class="fab fa-linkedin-in"></i>LinkedIn</a></li>
+                        <li><a class="facebook" href="https://www.facebook.com/xinran.yu.71"><i class="fab fa-facebook-f"></i>Facebook</a></li>
+                        <li class="twitter-li"><a class="twitter" href="https://twitter.com/XinranYu2"><i class="fab fa-linkedin-in"></i>Twitter</a></li>
                     </ul>
-                 </div>
+                </div>
             </div>
         </div>
     </section>
@@ -148,12 +150,12 @@
             <p>copyright &copy; 2019 by Xinran Yu</p>
         </div>
     </footer>
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
     <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
     <script src="vendors/js/jquery.waypoints.min.js"></script>
     <script src="resources/js/script.js"></script>
- </body>   
+</body>   
 </html>
