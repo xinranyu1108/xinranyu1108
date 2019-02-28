@@ -29,7 +29,6 @@ header {
     background-color: #E9B5B5;
 }
 
-.myName-text,
 h2 {
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -76,12 +75,25 @@ section {
 /*-------------------------------------*/
 /*-----------Header section------------*/
 /*-------------------------------------*/
+header {
+    height: 200px;
+}
+
+.header-text-box {
+    height: 100%;
+    position: relative;
+}
+
+.myName-text {
+    position: absolute;
+    bottom: 5px;
+    font-size: 100%;
+}
+
 nav {
-    right: 0;
     position: absolute;
     bottom: 10px;
-    right: 0;
-
+    right: 10px;
 
 }
 
@@ -94,14 +106,33 @@ a {
     color: #555;
 }
 
-.myName-text {
-    position: absolute;
-    bottom: 5px;
+header .row {
+    position: relative;
+    height: 200px;
 }
 
-header .row {
-    height: 200px;
-    position: relative;
+
+.sticky {
+    background: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 2px 2px #c6c6c6;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+}
+
+.sticky .row {
+    height: 50px;
+}
+
+
+.sticky .myName-text {
+    font-size: 60%;
+    bottom: 3px;
+
+}
+
+.sticky nav {
+    font-size: 90%;
 }
 
 /*-------------------------------------*/
