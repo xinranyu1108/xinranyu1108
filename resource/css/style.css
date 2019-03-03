@@ -111,6 +111,23 @@ header .row {
     height: 200px;
 }
 
+.mini-nav-icon {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+}
+
+
+.mini-nav-icon i {
+    font-size: 250%;
+    cursor: pointer;
+    display: none;
+
+}
+
+
+
 
 .sticky {
     background: rgba(255, 255, 255, 0.98);
@@ -132,8 +149,34 @@ header .row {
 }
 
 .sticky nav {
-    font-size: 90%;
+    font-size: 100%;
+
 }
+
+.sticky nav li {
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+.sticky .mini-nav-icon i {
+    margin-top: 5px;
+    font-size: 200%;
+
+}
+
+.sticky .mini-nav-icon {
+    bottom: 8px;
+
+}
+
+
+.sticky nav ul {
+    width: 100%;
+    margin-left: 12%;
+    margin-bottom: 5px;
+}
+
 
 /*-------------------------------------*/
 /*-----------aboutMe section------------*/
@@ -197,7 +240,6 @@ header .row {
 
 }
 
-
 .education-box {
     width: 70%;
     margin: auto;
@@ -255,8 +297,6 @@ header .row {
     width: 90%;
     margin-left: 5px;
 }
-
-
 
 .project-text {
     margin: 0;

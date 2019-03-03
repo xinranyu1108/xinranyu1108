@@ -1,101 +1,117 @@
+@media only screen and (min-width: 767px) {
+
+    .nav-text-box {
+        display: block;
+    }
+
+
+}
+
 @media only screen and (max-width:1263px) {
     .twitter-li {
         margin-top: 20px;
     }
+}
 
-    @media only screen and (max-width:1200px) {
+@media only screen and (max-width:1200px) {
 
-        .row {
-            margin: 0 2%;
-        }
-
-        .long-text {
-            margin-bottom: 40px;
-        }
-
-        .myEducation img {
-            width: 400px;
-        }
-
-        .DF-text-box {
-            width: 95%;
-            margin: 30px 5% auto auto;
-        }
-
-        .education-box {
-            width: 90%;
-        }
-
+    .row {
+        margin: 0 2%;
     }
 
-    @media only screen and (max-width:1024px) {
-        html {
-            font-size: 18px;
-        }
-
-        .DF-text-box {
-            width: 95%;
-            margin-top: 30px;
-        }
-
-        .contact-box {
-            width: 90%;
-            margin-left: 5%;
-        }
-
-        .aboutme-box:last-child {
-            margin-top: 0;
-        }
-
-        .long-text {
-            margin-bottom: 30px;
-        }
-
-        .myEducation img {
-            width: 320px;
-            margin-left: 0;
-        }
-
+    .long-text {
+        margin-bottom: 40px;
     }
 
-    @media only screen and (max-width:767px) {
-        html {
-            font-size: 16px;
-        }
+    .myEducation img {
+        width: 400px;
+    }
 
-        .col {
-            width: 100%;
-            margin: 0 0 4% 0;
-        }
+    .DF-text-box {
+        width: 95%;
+        margin: 30px 5% auto auto;
+    }
 
-        nav {
-            width: 100%;
-            text-align: center;
-        }
+    .education-box {
+        width: 90%;
+    }
 
-        .myPhoto {
-            width: 50%;
-        }
+}
 
-        .long-text {
-            margin-bottom: 15px;
-        }
+@media only screen and (max-width:1024px) {
+    html {
+        font-size: 18px;
+    }
 
-        .DF-text-box {
-            width: 98%;
-            margin-left: 1%;
-            margin-top: 0;
-        }
+    .DF-text-box {
+        width: 95%;
+        margin-top: 30px;
+    }
 
-        .myEducation figcaption {
-            text-align: center;
-        }
+    .contact-box {
+        width: 90%;
+        margin-left: 5%;
+    }
 
-        .project-box {
-            width: 98%;
-            margin-left: 1%;
-        }
+    .aboutme-box:last-child {
+        margin-top: 0;
+    }
 
+    .long-text {
+        margin-bottom: 30px;
+    }
+
+    .myEducation img {
+        width: 320px;
+        margin-left: 0;
+    }
+
+    nav li {
+        margin-left: 20px;
+    }
+
+
+}
+
+@media only screen and (max-width:767px) {
+    html {
+        font-size: 16px;
+    }
+
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+
+    nav {
+        width: 100%;
+        text-align: center;
+    }
+
+    .myPhoto {
+        width: 50%;
+    }
+
+    .long-text {
+        margin-bottom: 15px;
+    }
+
+    .DF-text-box {
+        width: 98%;
+        margin-left: 1%;
+        margin-top: 0;
+    }
+
+    .myEducation figcaption {
+        text-align: center;
+    }
+
+    .project-box {
+        width: 98%;
+        margin-left: 1%;
+    }
+
+    /*
         .myName-text {
             top: 50%;
             left: 50%;
@@ -104,139 +120,198 @@
             text-align: center;
             width: 100%;
         }
+*/
 
-        .myEmail {
-            margin-bottom: 40px;
-        }
+    .myEmail {
+        margin-bottom: 40px;
+    }
 
-        .btn {
-            margin: 20px auto 50px auto;
-        }
+    .btn {
+        margin: 20px auto 50px auto;
+    }
 
-        section {
-            padding: 30px 0;
-        }
+    section {
+        padding: 30px 0;
+    }
 
-        h1 {
-            font-size: 180%;
-        }
+    h1 {
+        font-size: 180%;
+    }
 
-        h2 {
-            font-size: 150%;
-            margin-bottom: 20px;
-        }
+    h2 {
+        font-size: 150%;
+        margin-bottom: 20px;
+    }
 
-        h3 {
-            font-size: 120%;
-            margin-bottom: 20px;
-
-        }
-
-        li {
-            margin-top: 20px;
-        }
-
-        .myFinalProject {
-
-            text-align: center;
-        }
-
-        .myFinalProject img {
-            width: 98%;
-        }
-
-        .project-img {
-            width: 90%;
-            margin: auto;
-            display: block;
-        }
-
-        footer {
-            padding: 30px;
-        }
-
-        .myEducation figcaption {
-            margin: 0;
-        }
-
-        .contactMe-list li {
-            margin-bottom: 5px;
-            display: block;
-            font-size: 120%;
-        }
-
-        span {
-            display: block;
-            margin: 0;
-            font-size: 120%;
-        }
+    h3 {
+        font-size: 120%;
+        margin-bottom: 20px;
 
     }
 
-    @media only screen and (max-width: 480px) {
+    li {
+        margin-top: 20px;
+    }
 
-        nav {
-            display: none;
-        }
+    .myFinalProject {
 
-        header .row {
-            height: 150px;
-        }
+        text-align: center;
+    }
 
-        .aboutme-box:last-child {
-            padding: 0;
-            text-align: center;
-        }
+    .myFinalProject img {
+        width: 98%;
+    }
 
-        .long-text {
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
+    .project-img {
+        width: 90%;
+        margin: auto;
+        display: block;
+    }
 
-        .myName-text {
-            top: 50%;
-            font-size: 90%;
-        }
+    footer {
+        padding: 30px;
+    }
 
-        section {
-            padding: 20px 0;
-        }
+    .myEducation figcaption {
+        margin: 0;
+    }
 
-        h2 {
-            margin-bottom: 15px;
-        }
+    .contactMe-list li {
+        margin-bottom: 5px;
+        display: block;
+        font-size: 120%;
+    }
 
-        html {
-            font-size: 16px;
-        }
+    span {
+        display: block;
+        margin: 0;
+        font-size: 120%;
+    }
 
-        h2:after {
-            margin-top: 10px;
-        }
+    nav {
+        display: none;
+    }
 
-        h3 {
-            margin-bottom: 20px
-        }
+    nav li {
+        display: block;
+    }
 
-        .DF-text-box {
-            margin: 0;
-            width: 100%;
-        }
+    nav ul {
+        width: 40%;
+        margin-left: 65%;
+    }
 
-        .contact-box {
-            font-size: 130%;
-            width: 100%;
-            margin: 0;
-            padding: 0;
-        }
-
-        .contact-box li a {
-            margin: 0;
-        }
-
-        .myEmail {
-            margin-bottom: 10px;
-
-        }
+    .mini-nav-icon i {
+        display: inline-block;
+        float: right;
 
     }
+
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    header {
+        height: 140px;
+    }
+
+    header .row {
+        height: 140px;
+    }
+
+    .nav-text-box nav {
+        display: none;
+    }
+
+
+    .aboutme-box:last-child {
+        padding: 0;
+        text-align: center;
+    }
+
+    .long-text {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .mini-nav-icon i {
+        font-size: 200%;
+    }
+
+    .myName-text {
+
+        font-size: 70%;
+    }
+
+    section {
+        padding: 20px 0;
+    }
+
+    h2 {
+        margin-bottom: 15px;
+    }
+
+    html {
+        font-size: 16px;
+    }
+
+    h2:after {
+        margin-top: 10px;
+    }
+
+    h3 {
+        margin-bottom: 20px
+    }
+
+    .DF-text-box {
+        margin: 0;
+        width: 100%;
+    }
+
+    .contact-box {
+        font-size: 130%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .contact-box li a {
+        margin: 0;
+    }
+
+    .myEmail {
+        margin-bottom: 10px;
+
+    }
+
+    nav {
+        right: 30px;
+    }
+
+    nav li {
+        font-size: 80%;
+        margin-top: 10px;
+    }
+
+    .sticky nav {
+        bottom: 5px;
+    }
+
+    .sticky .myName-text {
+        display: none;
+    }
+
+    .sticky .mini-nav-icon i {
+        font-size: 180%;
+    }
+
+    .sticky nav ul {
+        margin-top: 5%;
+        margin-bottom: 0px;
+        margin-left: 20%;
+        width: 80%;
+    }
+
+
+}
