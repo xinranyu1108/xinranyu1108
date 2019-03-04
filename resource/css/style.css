@@ -90,10 +90,11 @@ header {
     font-size: 100%;
 }
 
-nav {
+.nav-text-box {
     position: absolute;
     bottom: 10px;
     right: 10px;
+    display: block;
 
 }
 
